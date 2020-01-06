@@ -25,8 +25,8 @@ end
     "#{params[:word1]} #{params[:word2]} #{params[:word3]} #{params[:word4]} #{params[:word5]}."
   end
   
-  get "/:operation/:number1/:number2" do
-   @sum = params[:number1] + [:number2]
+  get "/:operation/:number1/:number2"
+   "#{parms[:number1]} + #{parms[:number2]}"
  end
   
 end
